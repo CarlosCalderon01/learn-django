@@ -1,0 +1,41 @@
+# Archivos generados durante la ejecución
+*.pyc
+__pycache__/
+
+# Archivos de configuración local
+*.env
+
+# Archivos de registro
+*.log
+
+# Directorio de archivos estáticos (si usas 'collectstatic')
+staticfiles/
+Temp/
+
+# Directorio de archivos media (si permites la carga de archivos por usuarios)
+media/
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivo de base de datos SQLite (si usas SQLite)
+db.sqlite3
+
+# Archivos de configuración específicos para el IDE
+.idea/
+.vscode/
+
+# Archivos de caché
+.cached/
+
+# Archivos de compilación y directorios
+*.pyo
+*.pyc
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+
+# Dependiendo del editor o IDE que uses, podrías querer ignorar archivos específicos de ese entorno.
