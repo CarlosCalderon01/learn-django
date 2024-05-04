@@ -58,7 +58,7 @@
 
 ### Models
 
-- python manage.py inspectdb > DefaultModels.py
+- python manage.py inspectdb > models.py
 - python manage.py inspectdb nametable
 - python manage.py createsuperuser
 

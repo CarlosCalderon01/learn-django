@@ -6,6 +6,7 @@ echo 3. Instalar paquetes desde requirements.txt
 echo 4. Ejecutar proyecto
 echo 5. python manage.py makemigrations
 echo 6. python manage.py migrate
+echo 7. python manage.py inspectdb > models.py
 
 set /p opcion="Ingrese el número del comando: "
 
@@ -21,6 +22,11 @@ if "%opcion%"=="1" (
     python manage.py makemigrations
 ) else if "%opcion%"=="6" (
     python manage.py migrate
+) else if "%opcion%"=="7" (
+    python manage.py inspectdb > models.py
 ) else (
     echo Comando no reconocido
 )
+
+
+

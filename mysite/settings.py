@@ -38,11 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'appLearnDjango',
-    'appLearnDRF',
-    'quickstart',
-    'snippets'
+    'appLearnDRF'
 ]
+
+    # 'appLearnDjango',
+    # 'appLearnDRF',
+    # 'quickstart',
+    # 'snippets'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
